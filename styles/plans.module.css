@@ -1,0 +1,32 @@
+.plans {
+  padding: 5%;
+  direction: rtl;
+}
+
+.labelSelect {
+  font-family: var(--ordibehesht);
+  font-size: 1.5rem;
+  color: var(--purple);
+}
+
+.selectCategory select {
+  border-radius: 0;
+  border: 3px solid var(--purple);
+  font-family: var(--ordibehesht);
+  font-size: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.actions {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.actions button {
+  width: 200px;
+  font-family: var(--ordibehesht);
+  font-size: 2rem;
+}

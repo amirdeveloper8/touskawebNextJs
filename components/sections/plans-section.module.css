@@ -1,0 +1,100 @@
+.plans {
+  direction: rtl;
+  width: 90%;
+  max-width: 1980px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  direction: rtl;
+  margin-right: auto;
+}
+
+.box {
+  width: 31.33%;
+  max-width: 500px;
+  margin: 1%;
+  border: 10px solid var(--purple);
+  text-align: center;
+  height: 700px;
+  transition: all 0.6s ease-in-out;
+  position: relative;
+}
+
+.box:hover {
+  transform: translateY(-20px);
+  background-color: var(--green);
+}
+
+.box img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.planBtn {
+  background-color: var(--purple);
+  border-color: var(--purple);
+  margin-top: 1rem;
+  color: white;
+  width: 90%;
+}
+
+.planBtn:hover {
+  background-color: var(--darkGreen);
+  border-color: var(--darkGreen);
+  transition: all 0.3s ease-in-out;
+}
+
+.planBtn a {
+  color: white;
+  text-decoration: none;
+}
+
+.plansHead {
+  width: 50%;
+  text-align: right;
+  margin-left: auto;
+  direction: rtl;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  bottom: 1rem;
+}
+
+.content h3 {
+  color: black;
+}
+.content h5 {
+  color: var(--purple);
+  font-weight: 700;
+}
+
+.content ul {
+  list-style-type: none;
+  font-size: 1.2rem;
+  height: 180px;
+}
+
+@media (max-width: 980px) {
+  .box {
+    width: 80%;
+  }
+  .plansHead {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .box {
+    width: 100%;
+  }
+  .plansHead {
+    width: 100%;
+  }
+}

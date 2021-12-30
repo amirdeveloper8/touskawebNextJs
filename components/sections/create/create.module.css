@@ -1,0 +1,669 @@
+.auth {
+  margin: 1rem auto;
+  width: 95%;
+  max-width: 25rem;
+  border-radius: 6px;
+  background-color: #304430;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.auth h1 {
+  text-align: center;
+  color: white;
+}
+
+.auth h2 {
+  text-align: center;
+  color: white;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  display: block;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.control input {
+  font: inherit;
+  background-color: #f1e1fc;
+  color: #022b1e;
+  border-radius: 4px;
+  border: 1px solid white;
+  width: 100%;
+  text-align: left;
+  padding: 0.25rem;
+}
+
+.actions {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actions button {
+  cursor: pointer;
+  font: inherit;
+  color: white;
+  background-color: #507d2a;
+  border: 1px solid #507d2a;
+  border-radius: 4px;
+  padding: 0.5rem 2.5rem;
+}
+
+.actions button:hover {
+  background-color: #2a7a3b;
+  border: 1px solid #2a7a3b;
+}
+
+.actions button:disabled {
+  background-color: #9e97a3;
+  border-color: #9e97a3;
+  cursor: not-allowed;
+}
+
+.actions .toggle {
+  margin-top: 1rem;
+  background-color: transparent;
+  color: #9f5ccc;
+  border: none;
+  padding: 0.15rem 1.5rem;
+}
+
+.actions .toggle:hover {
+  background-color: transparent;
+  color: #ae82cc;
+}
+
+.actions a {
+  text-decoration: none;
+  color: white;
+}
+
+.actions a:hover {
+  text-decoration: none;
+  color: #1ba354;
+}
+
+.countForm {
+  width: 400px;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.slidesForm {
+  max-width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  position: relative;
+  margin-top: 1rem;
+}
+
+.sliderForm {
+  position: relative;
+}
+
+.sliderFormSave {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.badgeSlider {
+  position: absolute;
+  bottom: 1rem;
+  right: 0;
+}
+
+.sliders {
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.sliders .submitactions {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sliders .controlFirstForm {
+  max-width: 400px;
+  margin: auto;
+  background-color: rgb(10, 110, 105);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.plansIcons {
+  margin-top: 5px;
+  direction: rtl;
+  height: 2rem;
+  position: relative;
+  width: 100%;
+}
+
+.plansIcons svg {
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.addItemPlans {
+  color: #09a538;
+  position: absolute;
+  right: 5px;
+}
+
+.addItemPlans:hover {
+  color: #2bcf5d;
+}
+
+.removeItemPlans {
+  color: #c51f1f;
+  position: absolute;
+  left: 5px;
+}
+
+.removeItemPlans:hover {
+  color: #ff0000;
+  position: absolute;
+  left: 5px;
+}
+
+.tablesForm {
+  max-width: 1920px;
+  margin: auto;
+  position: relative;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgba(11, 184, 141, 0.521);
+}
+
+.table {
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.493);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.table table {
+  direction: rtl;
+  background-color: white;
+}
+
+.counts {
+  display: flex;
+  justify-content: space-between;
+  direction: rtl;
+  margin-bottom: 5px;
+  padding: 0 1rem;
+}
+
+.count {
+  background-color: rgba(1, 29, 25, 0.781);
+  padding: 0.5rem;
+  text-align: center;
+  width: 150px;
+}
+
+.count h5 {
+  font-size: 1rem;
+  color: white;
+  direction: ltr;
+}
+
+.addForTable svg {
+  color: rgb(1, 219, 85);
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.removeForTable svg {
+  color: rgb(219, 1, 1);
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.btnTable {
+  background-color: #00755e;
+  border-color: #00755e;
+  width: 120px;
+  font-weight: bold;
+  color: black;
+  transition: all 0.3s ease-out;
+}
+
+.btnTable:hover {
+  background-color: #21a389;
+  border-color: #21a389;
+  color: #022b1e;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in;
+}
+
+.navTabs {
+  flex-wrap: nowrap;
+}
+
+.saveRow {
+  color: rgb(46, 150, 15);
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.trForm {
+  position: relative;
+}
+
+.saveTable {
+  background-color: rgb(6, 83, 64);
+  border-color: rgb(6, 83, 64);
+  transition: 0.3s ease-in-out;
+}
+
+.saveTable:hover {
+  background-color: rgb(5, 77, 27);
+  border-color: rgb(5, 77, 27);
+  transition: 0.3s ease-in-out;
+}
+
+.saveTable:disabled {
+  background-color: grey;
+  border-color: grey;
+}
+
+.headTable {
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.493);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  margin: 0.05rem;
+  margin-bottom: 1rem;
+  direction: rtl;
+}
+
+.theadTable {
+  margin-top: 0.3rem;
+  background-color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 5px;
+  background-color: #33d388;
+}
+
+.theadTable table {
+  margin-bottom: 0;
+}
+
+.tdValue {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tdValue svg {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.tdValue svg:hover {
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out;
+}
+
+.trueValue {
+  color: green;
+}
+
+.textValue {
+  color: black;
+  font-weight: bold;
+}
+
+.falseValue {
+  color: red;
+}
+
+.selectedValue {
+  border: 2px solid #00ff7f;
+  padding: 2px;
+  transform: scale(2);
+  border-radius: 2px;
+  margin-bottom: 1rem;
+}
+
+.selectedValue:hover {
+  transform: scale(2) !important;
+}
+
+.selectedValue:after {
+  content: "selected";
+}
+
+.inputSelected {
+  border: 2px solid #00ff7f;
+}
+
+.triggerSec {
+  position: absolute;
+  top: 0;
+  right: 1rem;
+}
+
+.triggerSec {
+  font-size: 2rem;
+  color: white;
+}
+
+.dNone {
+  display: none !important;
+}
+
+.commentTable {
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.493);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  margin: 0.05rem;
+  margin-bottom: 1rem;
+  direction: ltr;
+  position: relative;
+  padding-bottom: 3rem;
+}
+
+.commentTable h2 {
+  color: white;
+}
+
+.inputsComment {
+  direction: rtl;
+  position: relative;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.countCms {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+  border: 3px solid #012419;
+  padding: 1rem;
+  direction: rtl;
+}
+
+.countCms svg {
+  font-size: 1.8rem;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+.countCms svg:hover {
+  transform: scale(1.2);
+  transition: 0.2s ease-in;
+}
+
+.countCms svg:nth-child(1) {
+  color: red;
+}
+
+.countCms svg:nth-child(2) {
+  color: #39ff14;
+}
+
+.tabInput {
+  position: relative;
+  direction: rtl;
+}
+
+.tabInput svg {
+  color: green;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  left: 20px;
+  top: 16px;
+}
+
+.tabInput button {
+  padding: 2px 6px;
+  font-size: 14px;
+  background-color: rgb(0, 128, 58);
+  margin-top: 5px;
+}
+
+.tabInput button:hover {
+  background-color: rgb(1, 80, 37);
+}
+
+.auth h3 {
+  font-weight: 900;
+  font-size: 18px;
+  text-align: left;
+  color: white;
+  text-shadow: 1px 1px 3px rgb(25, 44, 31);
+}
+
+.formGroup {
+  position: relative;
+}
+
+.closeGroup {
+  position: absolute;
+  right: 15px;
+  bottom: 5px;
+  background-color: red;
+}
+
+.optionInput {
+  background-color: rgba(255, 255, 255, 0.363);
+  padding: 1rem;
+  margin: 1rem auto;
+  width: 90%;
+}
+
+.optionInput svg {
+  margin: 0.3rem 0;
+  cursor: pointer;
+  font-size: 1.5rem;
+  z-index: 99;
+}
+
+.delOption {
+  float: left;
+  color: red;
+}
+.delOption:hover {
+  color: rgb(255, 16, 16);
+}
+.addOption {
+  float: right;
+  color: green;
+}
+.addOption:hover {
+  color: rgb(22, 151, 22);
+}
+
+.formCheck {
+  direction: rtl;
+}
+
+.formCheck input {
+  width: 15px !important;
+  height: 15px;
+  border-radius: 50px;
+}
+
+.checkContact {
+  direction: ltr;
+}
+
+.ContactSocial {
+  background-color: rgba(43, 6, 35, 0.6);
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.socialContactIcons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  direction: rtl;
+}
+.socialContactIcons svg {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s ease-in;
+}
+.socialContactIcons svg:hover {
+  cursor: pointer;
+  transform: scale(1.3) rotate(-20deg);
+  opacity: 1;
+  transition: 0.3s ease-in;
+}
+.delSocialContact {
+  font-size: 1.8rem;
+  color: red;
+}
+.addSocialContact {
+  font-size: 1.8rem;
+  color: rgb(0, 172, 37);
+}
+
+.saveSocials {
+  font-size: 1.8rem;
+  color: #007038;
+  cursor: pointer;
+  margin-top: 0.3rem;
+}
+
+.saveChecked {
+  position: absolute;
+  bottom: 0.3rem;
+  right: 0.5rem;
+  font-size: 2rem;
+  color: #159e15;
+}
+
+.sliders input,
+.sliders textarea {
+  text-align: right;
+  direction: rtl;
+}
+
+.sliders textarea {
+  height: 150px;
+}
+
+.richInput h1,
+.richInput h2,
+.richInput h3,
+.richInput h4,
+.richInput h5,
+.richInput h6 {
+  padding: 0 !important;
+  text-align: right;
+  text-shadow: none !important;
+}
+
+.richInput h1 div,
+.richInput h2 div,
+.richInput h3 div,
+.richInput h4 div,
+.richInput h5 div,
+.richInput h6 div {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.richInput h1 span,
+.richInput h2 span,
+.richInput h3 span,
+.richInput h4 span,
+.richInput h5 span,
+.richInput h6 span {
+  font-family: var(--ordibehesht);
+}
+
+.richInput h1 span {
+  font-size: 3rem;
+}
+
+.richInput h2 span {
+  font-size: 2.5rem;
+}
+
+.richInput h3 span {
+  font-size: 2rem;
+}
+
+.richInput h4 span {
+  font-size: 1.5rem;
+}
+
+.richInput h5 span {
+  font-size: 1.3rem;
+}
+
+.richInput h6 span {
+  font-size: 1;
+}
+
+.richInput ul li {
+  list-style-type: none !important;
+}
+
+.richInput ul li::before {
+  content: " ";
+  background: var(--purple);
+  position: absolute;
+  right: -25px;
+  width: 20px;
+  height: 5px;
+  top: 50%;
+}
+.richInput ul li span[data-text="true"]::after {
+  content: " ";
+  background: var(--purple);
+  position: absolute;
+  margin-right: 5px;
+  width: 20px;
+  height: 5px;
+  top: 50%;
+}
+.richInput ol li {
+  list-style-type: none !important;
+}
+
+.richInput ol li::before {
+  content: " ";
+  background: var(--purple);
+  position: absolute;
+  right: -25px !important;
+  width: 20px !important;
+  height: 5px !important;
+  top: 50% !important;
+}

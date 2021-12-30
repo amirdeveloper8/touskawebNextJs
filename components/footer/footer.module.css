@@ -1,0 +1,133 @@
+.createFooter {
+  background-color: var(--darkGreen);
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  direction: rtl;
+}
+
+.createFooterBox {
+  width: 23%;
+  margin: 1%;
+  border: 3px solid var(--purple);
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.137);
+}
+
+.createFooter input {
+  text-align: left;
+}
+
+.createFooter input,
+.createFooter textarea {
+  border-radius: 0;
+  border: 3px solid var(--purple);
+  font-family: var(--iranFont);
+  color: var(--darkGreen);
+}
+
+.createFooterBox label {
+  color: white;
+  font-family: var(--ordibehesht);
+  font-size: 2rem;
+  width: 100%;
+  direction: ltr;
+}
+
+.createFooterBox h2 {
+  color: white;
+  text-align: center;
+  background-color: #883676;
+}
+
+.countIcons {
+  direction: rtl;
+}
+
+.countIcons svg {
+  font-size: 1.8rem;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.countIcons svg:hover {
+  opacity: 1;
+}
+
+.countIcons svg:nth-child(1) {
+  color: rgb(33, 182, 20);
+}
+
+.countIcons svg:nth-child(2) {
+  color: rgb(168, 0, 0);
+}
+
+.actions {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.actions button {
+  width: 300px;
+  font-family: var(--ordibehesht);
+  font-size: 2.5rem;
+}
+
+.actions button:hover {
+  background-color: var(--green);
+  color: black;
+}
+
+.createRow,
+.formGroup {
+  background-color: rgba(0, 0, 0, 0.466);
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.formLinks {
+  position: relative;
+}
+
+.edit {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 1.5rem;
+  background-color: green;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.editCont {
+  bottom: 6.6rem;
+}
+
+.btnCreateSocials {
+  width: 100%;
+}
+
+.btnCloseSocials {
+  width: 100%;
+  background: red;
+}
+
+.delIcon {
+  position: absolute;
+  font-size: 2rem;
+  background: var(--white);
+  color: rgb(150, 0, 0);
+  bottom: -2rem;
+  left: 0;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.delIcon:hover {
+  color: var(--white);
+  background: rgb(150, 0, 0);
+}

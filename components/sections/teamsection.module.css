@@ -1,0 +1,130 @@
+.carousel {
+  padding: 1rem 2rem 40px 2rem;
+  margin: auto;
+  position: relative;
+  direction: rtl;
+}
+
+.carousel .alice-carousel__dots {
+  position: absolute;
+  bottom: 10px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid var(--purple);
+  margin: 0 5%;
+
+  padding: 2rem 1rem;
+  transition: all 0.3s ease-in;
+  height: 450px;
+  max-width: 400px;
+}
+
+.box:hover {
+  transform: scale(1.05);
+  background-color: var(--purple);
+  transition: all 0.3s ease-in;
+}
+
+.imgPerson img {
+  border-radius: 250px;
+  border: 4px solid var(--purple) !important;
+  width: 200px;
+  height: 200px;
+  background-color: var(--purple) !important;
+}
+
+.namepost {
+  text-align: center;
+  background-color: var(--purple);
+  padding: 8px;
+  width: 90%;
+  margin: 1rem;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.namepost h3 {
+  font-size: 1.5rem !important;
+  color: white;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  direction: rtl;
+  height: 70px;
+}
+
+.social svg {
+  font-size: 20px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.twitter {
+  color: #115a88;
+  transition: transform 0.3s ease-in;
+}
+.twitter:hover {
+  transform: scale(1.3);
+  transition: transform 0.3s ease-in;
+}
+
+.instagram {
+  color: #cc2366;
+
+  transition: transform 0.3s ease-in;
+}
+.instagram:hover {
+  transform: scale(1.3);
+  transition: transform 0.3s ease-in;
+}
+
+.char {
+  width: 100%;
+  height: 170px;
+}
+
+.char h6 {
+  text-align: center;
+}
+
+.imgPerson {
+  height: 250px;
+}
+
+.personal {
+  height: 70px;
+}
+
+.personal p {
+  color: black;
+  font-size: 12px;
+}
+
+.box:hover h6 {
+  color: black;
+}
+
+.box:hover .namepost {
+  background-color: var(--darkGreen);
+}
+
+.box:hover .imgteam {
+  border-color: var(--darkGreen);
+  background-color: var(--darkGreen);
+}
+
+.char h6,
+.namepost,
+.imgteam {
+  transition: 0.2s ease-in;
+}

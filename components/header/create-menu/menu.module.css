@@ -1,0 +1,204 @@
+.createMenu {
+  background-color: var(--darkGreen);
+  padding: 1rem;
+  padding-bottom: 70px !important;
+  position: relative;
+}
+
+.createMenu input:focus {
+  background: transparent;
+  border: 2px solid var(--darkGreen);
+  box-shadow: 2px 3px 5px var(--darkGreen);
+}
+
+.createMenu form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btnSubmit {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.check {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: green;
+  font-size: 2rem;
+}
+
+.check svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: green;
+  font-size: 2rem;
+}
+
+.btnSubmit button {
+  width: 200px;
+}
+
+.btnSubmit button:hover {
+  background: var(--green);
+}
+
+.control {
+  width: 23%;
+  margin: 1%;
+  background-color: rgba(255, 255, 255, 0.507);
+  padding: 1rem;
+  position: relative;
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+  align-content: flex-start;
+}
+
+.control label,
+.control input,
+.control select,
+.control option,
+.control textarea,
+.control span {
+  font-family: var(--ordibehesht);
+  font-size: 1.5rem;
+}
+
+.control label {
+  color: rgb(0, 0, 0);
+}
+
+.control button {
+  padding: 5px 20px;
+  width: 100%;
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+.menuHead {
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  margin-left: 1rem;
+  border: 2px solid var(--purple);
+  padding: 0.5rem;
+  background: rgba(255, 255, 255, 0.336);
+}
+
+.icons svg {
+  font-size: 2rem;
+  cursor: pointer;
+  margin: 0 0.5rem;
+  opacity: 0.5;
+  transition: 0.2s ease;
+}
+
+.saveItem {
+  height: 50px;
+}
+
+.icons svg:hover {
+  opacity: 1;
+}
+
+.icons svg:nth-child(1) {
+  color: rgb(16, 190, 16);
+}
+
+.icons svg:nth-child(2) {
+  color: red;
+}
+
+.badge {
+  background-color: var(--purple) !important;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px black;
+  transition: 0.2s ease-in;
+}
+
+.badge:hover {
+  transform: scale(1.1);
+  color: black;
+  text-shadow: none;
+  transition: 0.2s ease-in;
+}
+
+.addSubs {
+  background: rgba(0, 143, 83, 0.384);
+  margin: 10px 0;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.subItems {
+  margin: auto;
+  margin-bottom: 10px;
+  width: 90%;
+  background: rgba(0, 143, 83, 0.384);
+  padding: 10px 0;
+  position: relative;
+}
+
+.subItems button {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.subItems svg {
+  color: var(--purple);
+}
+
+.saveSub {
+  background-color: turquoise !important;
+}
+
+.iconSubs {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  direction: rtl;
+  background-color: rgb(44, 44, 44);
+}
+
+.iconSubs svg {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.iconSubs svg:hover {
+  opacity: 1;
+}
+
+.iconSubs svg:nth-child(1) {
+  color: rgb(16, 190, 16);
+}
+
+.iconSubs svg:nth-child(2) {
+  color: red;
+}
+
+.iconDisplay {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  direction: rtl;
+}
+
+.iconDisplay svg {
+  cursor: pointer;
+}

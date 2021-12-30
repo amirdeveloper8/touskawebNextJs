@@ -1,0 +1,153 @@
+.simple {
+  direction: rtl;
+  width: 90%;
+  max-width: 1980px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+.content {
+  direction: rtl;
+}
+
+.simple h2 {
+  margin-bottom: 1rem;
+  text-align: right;
+}
+
+.detailsImgTxt {
+  width: 90% !important;
+  border: 10px solid var(--purple);
+  margin-right: auto;
+}
+
+.detailsImgTxt img {
+  width: 100% !important;
+}
+
+.textSimple {
+  padding: 1rem;
+}
+
+.imageSimple {
+  position: relative;
+}
+
+.imageSimple svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: var(--darkGreen);
+  background-color: var(--lightGreen);
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.modalScale {
+  transform: scale(0.2);
+  transition: 0.3s ease-in;
+}
+
+.modalImage img {
+  width: 100%;
+}
+
+.modalImage {
+  position: fixed;
+}
+
+.modal {
+  transform: scale(1);
+  background: #213d3ada;
+}
+
+.modalImage svg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  color: var(--darkGreen);
+  background-color: var(--lightGreen);
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.txtTitle {
+  text-align: center !important;
+}
+
+.detailsTxt {
+  width: 80%;
+  margin: auto;
+}
+
+.detailsTxt p {
+  text-align: justify;
+}
+
+.detailsTxt p,
+.detailsTxt ul {
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+}
+
+.detailsTxt ul,
+.detailsTxt ol {
+  list-style-type: none;
+  color: black;
+}
+
+.detailsTxt * {
+  padding: 0 3%;
+}
+
+.detailsTxt ul,
+.detailsTxt li {
+  padding: 0 !important;
+  font-weight: 500;
+}
+
+.detailsTxt li::before,
+.detailsTxt ul li::after {
+  content: " ";
+  padding: 0 15px;
+  width: 20px;
+  height: 5px;
+  background-color: var(--purple);
+  color: var(--purple);
+  margin: 5px;
+  font-size: 6px;
+}
+
+.detailsTxt b {
+  padding: 0 !important;
+}
+
+.detailsTxt h3 {
+  color: black;
+}
+
+@media (max-width: 980px) {
+  .detailsTxt {
+    width: 100%;
+  }
+  .detailsTxt p,
+  .detailsTxt li {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .detailsTxt {
+    width: 100%;
+  }
+  .detailsTxt p,
+  .detailsTxt li {
+    font-size: 0.6rem;
+  }
+  .detailsTxt li::before,
+  .detailsTxt ul li::after {
+    content: " ";
+    padding: 0 10px;
+  }
+}

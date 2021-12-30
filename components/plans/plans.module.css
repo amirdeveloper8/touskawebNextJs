@@ -1,0 +1,114 @@
+.plans {
+  width: 100%;
+  direction: rtl;
+}
+
+.plans form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.control {
+  background-color: rgba(0, 0, 0, 0.493);
+  width: 23%;
+  margin: 1%;
+  padding: 1rem;
+  position: relative;
+}
+
+.control label {
+  color: var(--white);
+  font-size: 1.8rem;
+}
+
+.control input {
+  color: var(--white);
+  font-size: 1.8rem;
+  border-radius: 0;
+  border: 2px solid var(--purple);
+  background-color: transparent;
+  direction: rtl;
+  text-align: right;
+}
+
+.control select {
+  font-size: 1.5rem;
+}
+
+.countIcons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  background-color: rgb(177, 212, 196);
+}
+
+.countIcons svg {
+  font-size: 2rem;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.countIcons svg:nth-child(1) {
+  color: green;
+}
+
+.countIcons svg:nth-child(2) {
+  color: red;
+}
+
+.actions {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submitCreate {
+  font-size: 1.5rem;
+  width: 80%;
+  border-radius: 0;
+  margin-top: 1rem;
+}
+
+.submitCreateBtn {
+  font-size: 2rem;
+  width: 80%;
+  border-radius: 0;
+  margin-top: 1rem;
+}
+
+.edit {
+  background-color: green;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  width: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.edit:hover {
+  color: green;
+  background-color: white;
+  width: 100%;
+}
+
+.delIcon {
+  font-size: 2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: white;
+  background: rgb(155, 0, 0);
+  width: auto;
+  padding: 2px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.delIcon:hover {
+  transform: scale(1.2);
+  box-shadow: 2px 2px 2px rgb(59, 59, 59);
+}

@@ -1,0 +1,164 @@
+.addnewpage {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pageDetails {
+  background-color: rgb(82, 150, 138);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  margin: 1rem;
+  position: relative;
+}
+
+.pageDetails h2,
+.pageDetails p {
+  text-align: center;
+}
+.pageDetails button {
+  width: 80%;
+  margin-bottom: 5px;
+}
+
+.buttonPages {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerItem {
+  position: relative;
+  background: var(--darkGreen);
+  padding: 1rem;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.closeMenu {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+}
+
+.openItemMenu {
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  transition: 0.2s ease-in;
+  font-weight: 900;
+  font-family: var(--ordibehesht);
+  font-size: 2rem;
+}
+
+.openItemMenu:hover {
+  transform: scale(1.1);
+  background: var(--white);
+  color: var(--purple);
+}
+
+.footerDiv {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-bottom: 4rem;
+}
+
+.openFooter {
+  width: 60%;
+  font-family: var(--ordibehesht);
+  font-size: 3rem;
+}
+
+.closeFooter {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: red;
+}
+
+.delIcon {
+  position: absolute;
+  bottom: 0;
+  font-size: 4rem;
+  right: 30%;
+  bottom: 0;
+  background: var(--white);
+  width: 40%;
+  color: rgb(134, 0, 0);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.delIcon:hover {
+  background: rgb(134, 0, 0);
+  color: var(--white);
+  right: 20%;
+  width: 60%;
+}
+
+.createPlans {
+  background: var(--darkGreen);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 1rem auto;
+  padding: 3rem;
+  position: relative;
+}
+
+.createPlans * {
+  font-family: var(--ordibehesht);
+}
+
+.createBtnPlans {
+  width: 100%;
+  background-color: rgb(0, 128, 96);
+  border-color: rgb(0, 128, 96);
+  font-size: 2.5rem;
+}
+
+.updateBtnPlans {
+  width: 100%;
+  font-size: 2.5rem;
+}
+
+.createBtnPlans:hover {
+  background-color: var(--green);
+  color: black;
+}
+
+.updateBtnPlans:hover {
+  background-color: var(--white);
+  color: black;
+}
+
+.closePlans {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 20px;
+}
+
+.deletePage {
+  font-size: 2rem;
+  color: white;
+  background-color: rgb(175, 0, 0);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.deletePage:hover {
+  font-size: 2.5rem;
+}

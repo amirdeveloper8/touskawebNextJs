@@ -1,0 +1,234 @@
+.worksamples {
+  width: 90%;
+  max-width: 1980px;
+  margin: auto;
+  direction: rtl;
+  padding: 2rem 1rem;
+  position: relative;
+}
+
+.worksamples h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 30%;
+  margin: 0.5rem;
+  background-color: rgba(0, 139, 139, 0.589);
+  height: 20vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  border: 5px solid var(--purple);
+}
+
+.box h5 {
+  z-index: 99;
+  background-color: var(--purple);
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  padding: 5px !important;
+  margin: 0 !important;
+}
+
+.box:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0, 139, 139, 0.452);
+  transition: 0.3s ease-in;
+}
+
+.box:hover::after {
+  top: 0;
+  height: 0;
+  transition: 0.3s ease-in;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  direction: rtl;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+}
+
+.prjDetails {
+  width: 48%;
+  margin-left: 2%;
+  direction: rtl;
+}
+
+.actions {
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.buttonPrj {
+  min-width: 120px;
+  transition: 0.2s ease-in;
+}
+
+.buttonPrj:hover {
+  background-color: var(--green);
+  border-color: var(--green);
+}
+
+.prjDetails p {
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-weight: 700;
+  color: black;
+}
+
+.prjDetails p span {
+  text-align: right;
+  font-family: var(--ordibehesht);
+  font-size: 1.5rem;
+  color: black;
+}
+
+.prjDetails p a {
+  color: black;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+  font-weight: 700;
+}
+
+.prjDetails p a:hover {
+  color: var(--purple);
+}
+
+.buttonPrj a {
+  color: #f2f2f2;
+  text-decoration: none;
+  transition: 0.2s ease-in;
+}
+
+.buttonPrj:hover a {
+  color: #213d3a;
+}
+
+.prjImg {
+  width: 48%;
+  margin-right: 2%;
+  text-align: center;
+}
+
+.projects .prjImg img {
+  width: 100%;
+  border: 6px solid var(--purple);
+}
+
+.projects .divider {
+  background: rgb(33, 61, 58);
+  background: linear-gradient(
+    90deg,
+    rgba(33, 61, 58, 1) 0%,
+    rgba(101, 158, 153, 1) 58%,
+    rgba(242, 242, 242, 1) 100%
+  );
+  transform: scaleX(-1);
+
+  width: 80%;
+  height: 2px;
+  direction: ltr;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.modal {
+  flex-wrap: wrap;
+  display: block !important;
+  padding-top: 200px !important;
+  background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.modal h2 {
+  margin-bottom: 80px;
+}
+
+@media (max-width: 980px) {
+  .box {
+    width: 70%;
+    max-width: 500px;
+    height: 35vw;
+  }
+
+  .modal {
+    padding-top: 50px !important;
+  }
+
+  .prjDetails,
+  .prjImg {
+    width: 80%;
+    margin: auto;
+  }
+
+  .prjDetails {
+    order: 1;
+    margin-top: 40px;
+  }
+
+  .actions {
+    position: relative;
+    width: 100%;
+  }
+
+  .modal h2 {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 650px) {
+  .box {
+    width: 100%;
+    height: 60vw;
+  }
+  .prjDetails,
+  .prjImg {
+    width: 100%;
+  }
+
+  .prjDetails p a,
+  .prjDetails p {
+    font-size: 12px;
+  }
+}

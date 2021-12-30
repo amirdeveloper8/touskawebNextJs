@@ -1,0 +1,17 @@
+.video {
+  width: 90%;
+  max-width: 1980px;
+  margin: auto;
+  direction: rtl;
+  padding: 2rem 1rem;
+}
+
+.video h2 {
+  text-align: center !important;
+}
+
+.subtitle {
+  color: black;
+  text-align: center !important;
+  margin: 2rem 0;
+}

@@ -1,0 +1,42 @@
+.order {
+  width: 10%;
+  background-color: var(--green);
+  padding: 2px;
+  position: absolute;
+  margin: auto;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  top: 0;
+  right: 0;
+}
+
+.order label {
+  color: var(--darkGreen);
+  font-weight: 900;
+}
+
+.order form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.order button {
+  right: 2px;
+  bottom: 2px;
+  background-color: var(--white);
+  border: none;
+  margin-top: 8px;
+  border-radius: 40px;
+  transition: 0.2s ease-in;
+}
+
+.order button:hover {
+  background-color: var(--darkGreen);
+  transition: 0.2s ease-in;
+}
+
+.order svg {
+  color: var(--purple);
+}

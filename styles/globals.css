@@ -6,6 +6,77 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+@font-face {
+  font-family: "Oridibehesht";
+  src: url("/fonts/Ordibehesht.woff");
+  color: var(--purple);
+}
+
+@font-face {
+  font-family: "iranFont";
+  src: url("/fonts/FontsFree-Net-ir_sans.ttf");
+}
+
+:root {
+  --purple: #883676;
+  --white: #f2f2f2;
+  --green: #659e99;
+  --lightGreen: #609a96;
+  --darkGreen: #213d3a;
+  --ordibehesht: "Oridibehesht";
+  --iranFont: "iranFont";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oridibehesht";
+  color: #883676;
+  font-weight: 900;
+}
+
+p,
+th,
+td,
+tr,
+a,
+label {
+  font-family: "iranFont";
+}
+
+h1 {
+  font-size: 3.5rem !important;
+}
+
+h2 {
+  font-size: 3rem !important;
+}
+
+h3 {
+  font-size: 2.5rem !important;
+}
+
+h4 {
+  font-size: 2rem !important;
+}
+
+h5 {
+  font-size: 1.8rem !important;
+}
+
+h6 {
+  font-size: 1.3rem !important;
+}
+
+button a {
+  font-family: "Oridibehesht";
+  font-size: 2rem;
+  font-weight: 900;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -13,4 +84,352 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.greenSec {
+  background-image: url(/images/Green-BG.jpg);
+}
+
+.greenSec section {
+  direction: ltr !important;
+  text-align: right;
+}
+
+.greenSec h2 {
+  text-align: left;
+}
+
+.customBtn a {
+  font-family: "Oridibehesht";
+  font-weight: 900;
+}
+
+.whiteSec {
+  background-image: url(/images/White-BG.jpg);
+}
+
+.whiteSec section {
+  direction: rtl !important;
+}
+
+.whiteSec h2 {
+  text-align: right;
+}
+
+.nav-item-list {
+  direction: rtl;
+}
+
+.orgnavbar {
+  background-color: #3a9175;
+}
+
+.center {
+  margin: auto;
+}
+
+.dashboard {
+  margin-left: 150px !important;
+  overflow-x: hidden;
+}
+
+.updateForm {
+  display: none;
+}
+
+#updateSection .updateForm {
+  display: block !important;
+  max-width: 25rem;
+  margin: auto;
+  position: relative;
+}
+
+.addForm {
+  display: none;
+}
+
+#addNew .addForm {
+  display: block;
+  max-width: 25rem;
+  margin: auto;
+  position: relative;
+}
+
+.addTable {
+  display: none;
+}
+
+#addNew .addTable {
+  display: block;
+  margin: auto;
+  position: relative;
+}
+
+#updateSection .details {
+  display: none !important;
+}
+
+/* richtext editor drafjs */
+
+.RichEditor-root {
+  background: #fff;
+  border: 1px solid #ddd;
+  font-family: "Georgia", serif;
+  font-size: 14px;
+  padding: 15px;
+  height: 500px;
+}
+
+.RichEditor-root h1,
+.RichEditor-root h2 {
+  color: black !important;
+}
+
+.RichEditor-editor {
+  border-top: 1px solid #ddd;
+  cursor: text;
+  font-size: 16px;
+  margin-top: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 388px;
+  box-sizing: content-box;
+}
+
+/* width */
+.RichEditor-editor::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.RichEditor-editor::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.RichEditor-editor::-webkit-scrollbar-thumb {
+  background: #527252;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.RichEditor-editor::-webkit-scrollbar-thumb:hover {
+  background: #3e6e3e;
+}
+
+.RichEditor-editor .public-DraftEditorPlaceholder-root,
+.RichEditor-editor .public-DraftEditor-content {
+  margin: 0 -15px -15px;
+  padding: 15px;
+}
+
+.RichEditor-editor .public-DraftEditor-content {
+  min-height: 100px;
+}
+
+.RichEditor-hidePlaceholder .public-DraftEditorPlaceholder-root {
+  display: none;
+}
+
+.RichEditor-editor .RichEditor-blockquote {
+  border-left: 5px solid #eee;
+  color: #666;
+  font-family: "Hoefler Text", "Georgia", serif;
+  font-style: italic;
+  margin: 16px 0;
+  padding: 10px 20px;
+}
+
+.RichEditor-editor .public-DraftStyleDefault-pre {
+  background-color: rgba(0, 0, 0, 0.05);
+  font-family: "Inconsolata", "Menlo", "Consolas", monospace;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.RichEditor-controls {
+  font-family: "Helvetica", sans-serif;
+  font-size: 14px;
+  margin-bottom: 5px;
+  user-select: none;
+}
+
+.RichEditor-styleButton {
+  color: #999;
+  cursor: pointer;
+  margin-right: 16px;
+  padding: 2px 0;
+  display: inline-block;
+}
+
+.RichEditor-activeButton {
+  color: #5890ff;
+}
+
+.editor {
+  background: white;
+}
+
+.editor h1,
+.editor h2,
+.editor h3,
+.editor h4,
+.editor h5,
+.editor h6,
+.editor p,
+.editor ul,
+.editor ol,
+.editor a {
+  color: rgb(31, 28, 28) !important;
+  background: white !important;
+  padding: 2px !important;
+  margin: 2px !important;
+}
+
+.rdw-editor-main {
+  cursor: text !important;
+  font-size: 16px !important;
+  margin-top: 10px !important;
+  box-sizing: content-box !important;
+}
+
+.rdw-link-modal {
+  padding-bottom: 10px;
+  height: 260px !important;
+  background: rgb(3, 70, 29) !important;
+}
+
+.nav-link svg {
+  display: none;
+}
+
+.nav-link.active svg {
+  display: block;
+}
+
+.nav-pills .nav-link {
+  background-color: var(--green) !important;
+  color: var(--purple);
+  font-weight: 700;
+}
+
+.nav-pills .nav-link:hover {
+  color: var(--darkGreen);
+}
+
+.nav-pills .nav-link.active {
+  background-color: var(--darkGreen) !important;
+}
+
+.nav-pills .nav-item {
+  width: 33.33% !important;
+  border: 2px solid var(--purple);
+  padding: 0 !important;
+  height: 100%;
+}
+
+.nav-pills .nav-item a {
+  border-radius: 0 !important;
+  font-size: 1rem;
+}
+
+th {
+  background-color: var(--darkGreen) !important;
+  color: var(--white);
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--darkGreen) !important;
+  background-color: #659e996c !important;
+}
+
+.accordion-button:focus {
+  border-color: var(--darkGreen) !important;
+  box-shadow: none !important;
+}
+
+.accordion-button::after {
+  background-image: url("/images//Expand\ Arrow.png") !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("/images//Collaps\ Arrow.png") !important;
+}
+
+#simpleTxt {
+  text-align: center !important;
+}
+
+@media (max-width: 980px) {
+  .nav-pills .nav-item {
+    width: 50% !important;
+  }
+}
+@media (max-width: 700px) {
+  .nav-pills .nav-item {
+    width: 100% !important;
+  }
+}
+
+.carousel-caption {
+  right: 0 !important;
+  left: 0 !important;
+}
+
+.rdw-editor-toolbar {
+  direction: ltr !important;
+}
+
+.rdw-dropdown-optionwrapper li::after,
+.rdw-dropdown-optionwrapper li::before {
+  display: none;
+}
+/* 
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+} */
+
+.h_iframe-aparat_embed_frame {
+  position: relative;
+}
+.h_iframe-aparat_embed_frame .ratio {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-right: auto;
+}
+.h_iframe-aparat_embed_frame iframe {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40vw;
+  border: 6px solid var(--purple);
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.5rem !important;
+  }
+
+  h2 {
+    font-size: 2rem !important;
+  }
+
+  h3 {
+    font-size: 1.5rem !important;
+  }
+
+  h4 {
+    font-size: 1.3rem !important;
+  }
+
+  h5 {
+    font-size: 1.1rem !important;
+  }
+
+  h6 {
+    font-size: 0.9rem !important;
+  }
 }

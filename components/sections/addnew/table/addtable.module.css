@@ -1,0 +1,83 @@
+.trForm {
+  position: relative;
+}
+
+.addTable {
+  background-color: rgba(0, 128, 111, 0.623);
+  width: 80%;
+  margin: auto;
+  margin-top: 1rem;
+  padding: 3rem 1rem;
+  direction: rtl;
+}
+
+.inputTab {
+  width: 40%;
+}
+
+.addTable table {
+  background-color: white;
+  margin-top: 1rem;
+}
+
+.tdValue {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tdValue svg {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.tdValue svg:hover {
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out;
+}
+
+.trueValue {
+  color: green;
+}
+
+.textValue {
+  color: black;
+  font-weight: bold;
+}
+
+.falseValue {
+  color: red;
+}
+
+.selectedValue {
+  border: 2px solid #00ff7f;
+  padding: 2px;
+  transform: scale(2);
+  border-radius: 2px;
+  margin-bottom: 1rem;
+}
+
+.selectedValue:hover {
+  transform: scale(2) !important;
+}
+
+.selectedValue:after {
+  content: "selected";
+}
+
+.inputSelected {
+  border: 2px solid #00ff7f;
+}
+
+.addTable button {
+  background-color: rgb(6, 146, 64);
+  border-color: rgb(6, 146, 64);
+  margin: auto;
+  display: flex;
+}
+
+.addTable button:hover {
+  background-color: rgb(4, 82, 37);
+  border-color: rgb(4, 82, 37);
+}

@@ -1,0 +1,102 @@
+.tableSection {
+  direction: rtl !important;
+  width: 90%;
+  max-width: 1980px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+.table {
+  border: 10px solid var(--purple);
+  padding: 0;
+  width: 90%;
+  margin-right: auto;
+  font-size: 1rem;
+  direction: rtl !important;
+}
+
+.tableSection h2 {
+  margin-bottom: 1rem;
+  text-align: right !important;
+}
+
+.table td {
+  font-size: 0.8rem;
+}
+
+.tableSection div {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.tableSection .nav-item {
+  border-radius: 0 !important;
+}
+
+.tableSection table {
+  margin: 0 !important;
+  text-align: center;
+  background-color: var(--white);
+  border-color: #a7d8b88e;
+  border-width: 2px;
+  position: relative;
+}
+
+.thTables table,
+.thTables h3 {
+  background-color: var(--lightGreen);
+}
+
+.thTables h3 {
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+.trueIcon {
+  color: green;
+  font-size: 1.5rem;
+}
+
+.falseIcon {
+  color: red;
+  font-size: 1.5rem;
+}
+
+.navItem {
+  cursor: pointer;
+}
+
+.tabTable {
+  background-color: red;
+}
+
+.buttonTable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  min-width: 200px;
+}
+
+.comments {
+  margin: 2rem 10% 2rem 0;
+}
+
+.comments p {
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+@media (max-width: 780px) {
+  .table td {
+    font-size: 12px;
+  }
+
+  .table th {
+    font-size: 12px;
+  }
+
+  .table {
+    width: 100%;
+  }
+}

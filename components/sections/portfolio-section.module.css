@@ -1,0 +1,98 @@
+.portfolio {
+  direction: rtl;
+  width: 90%;
+  max-width: 1980px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+.portfolio h2 {
+  width: 100%;
+}
+
+.portfolioBoxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolioBox {
+  width: 31.3%;
+  border: 10px solid #883676;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1%;
+  transition: 0.45s ease-in-out;
+}
+
+.portfolioBox h3 {
+  background-color: var(--purple);
+  color: var(--white);
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.portfolioBox:hover {
+  transform: scale(1.1);
+  background-color: #ffffff67;
+  border-width: 5px;
+  transition: 0.45s ease-in-out;
+}
+
+.portfolioBox img {
+  width: 100%;
+  margin-bottom: 2rem !important;
+  border-bottom: 10px solid #883676 !important;
+}
+
+.portfolioBox button {
+  width: 80%;
+  background-color: #883676;
+  transition: 0.3s ease-in-out;
+  border-color: #883676;
+  border-radius: 0;
+  margin-bottom: 2rem;
+}
+
+.portfolioBox a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease-in-out;
+  padding: 5% 30%;
+}
+
+.portfolioBox button:hover {
+  background-color: #ffffff;
+  color: #883676;
+  border-color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.portfolioBox button:active {
+  background-color: #ffffff;
+  color: #883676;
+  border-color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.portfolioBox button:hover a {
+  color: #883676;
+  font-weight: 700;
+  transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 980px) {
+  .portfolioBox {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .portfolioBox {
+    width: 100%;
+  }
+}

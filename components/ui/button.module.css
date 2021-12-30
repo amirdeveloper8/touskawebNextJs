@@ -1,0 +1,36 @@
+.button {
+  cursor: pointer;
+  font: inherit;
+  color: white;
+  background-color: var(--purple);
+  border: 1px solid var(--purple);
+  padding: 0.5rem 0;
+  transition: 0.2s ease-in;
+}
+
+.button a {
+  color: var(--white);
+  text-decoration: none;
+  padding: 0.5rem 2.5rem;
+  font-size: 2rem;
+}
+
+.button a:hover {
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: var(--darkGreen);
+  border-color: var(--darkGreen);
+}
+
+@media (max-width: 980px) {
+  .button a {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 600px) {
+  .button a {
+    font-size: 4.2vw;
+  }
+}

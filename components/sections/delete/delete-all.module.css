@@ -1,0 +1,39 @@
+.deleteAll {
+  background-color: red;
+  width: 50px;
+  margin-top: -1rem;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deleteAll svg {
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.deleteAll svg:hover {
+  transform: scale(1.2);
+}
+
+.single {
+  width: 40px;
+  height: 40px;
+}
+
+.modal {
+  width: 350px;
+  background-color: #659e99bb;
+  margin: auto;
+  padding: 1rem;
+}
+
+.modal button {
+  width: 100%;
+}

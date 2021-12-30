@@ -1,0 +1,177 @@
+.plans {
+  direction: rtl;
+  background-color: red;
+}
+
+.checkBox {
+  width: 30%;
+  margin: 1.5%;
+}
+
+.steps {
+  background-color: var(--darkGreen);
+  margin: 2rem 0;
+  position: relative;
+}
+
+.steps h2 {
+  width: 100%;
+  text-align: center;
+  background-color: var(--green);
+}
+
+.itemsSec {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.itemsSec label {
+  font-family: var(--ordibehesht);
+  color: var(--white);
+  font-size: 1.6rem;
+}
+
+.checkBox div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+}
+
+.checkBox input {
+  margin-left: 0 !important;
+  margin-right: 1.5rem !important;
+  position: absolute;
+  left: 2rem;
+}
+
+.actions {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.actions button {
+  width: 200px;
+  font-family: var(--ordibehesht);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.actions button:hover {
+  background-color: var(--green);
+}
+
+.back {
+  position: absolute;
+  top: 0.7rem;
+  right: 0.6rem;
+  font-size: 2rem;
+  color: var(--purple);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.back:hover {
+  transform: rotate(180deg);
+}
+
+.print {
+  border: 6px solid var(--purple);
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+  margin-top: -4%;
+}
+
+.valuesItem {
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.price {
+  width: 200px;
+}
+
+.price h5 {
+  color: var(--white);
+  background-color: #883676;
+  margin: 0 !important;
+  padding: 5px;
+  border-bottom: 2px solid var(--darkGreen);
+  direction: rtl;
+  position: relative;
+}
+
+.price span {
+  font-size: 1.5rem !important;
+  margin-left: 8px;
+}
+
+.valuesItem h3 {
+  text-align: center;
+  border: 5px solid;
+  font-size: 2rem !important;
+  border-bottom: none;
+  border-color: #883676;
+  color: black;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+.valuesItem table {
+  border: 5px solid var(--purple);
+}
+
+.valuesItem tr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.valuesItem th {
+  background-color: var(--darkGreen) !important;
+}
+
+.valuesItem tr {
+  background-color: var(--white);
+}
+
+.valuesItem tr th,
+.valuesItem tr td {
+  width: 50%;
+  font-family: var(--iranFont) !important;
+  font-size: 1rem;
+}
+
+.valuesItem tr td {
+  color: black !important;
+  font-weight: 700;
+}
+
+.printBtn {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 3rem;
+  padding: 5px;
+  color: white;
+  background-color: var(--purple);
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
+}
+
+.printBtn:hover {
+  background-color: var(--darkGreen);
+}
+
+@media (max-width: 600px) {
+  .valuesItem tr td {
+    font-size: 0.8rem;
+  }
+}

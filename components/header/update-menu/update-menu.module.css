@@ -1,0 +1,198 @@
+.updateMenu form {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.updateMenu * {
+  font-family: var(--ordibehesht);
+}
+
+.control {
+  width: 23%;
+  margin: 1%;
+  background: rgba(255, 255, 255, 0.281);
+  padding: 1rem;
+  position: relative;
+}
+
+.formGroup {
+  position: relative;
+  direction: rtl;
+  padding-right: 0;
+}
+
+.formGroup input {
+  background-color: rgba(255, 255, 255, 0.774);
+  border: 2px solid var(--purple);
+  border-radius: 0;
+  font-size: 1.5rem;
+}
+
+.formGroup select,
+.formGroup select option {
+  font-size: 1.3rem;
+}
+
+.formGroup label {
+  font-size: 1.5rem;
+  text-align: left;
+  direction: ltr;
+  width: 100%;
+}
+
+.edit {
+  background-color: rgb(0, 128, 75);
+  font-size: 1.5rem;
+  color: white;
+  padding: 2px;
+  position: absolute;
+  left: -12px;
+  bottom: 0;
+  height: 47px;
+  cursor: pointer;
+}
+
+.badge {
+  background-color: var(--purple) !important;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px black;
+  transition: 0.2s ease-in;
+  font-size: 1.3rem;
+}
+
+.badge:hover {
+  transform: scale(1.1);
+  color: black;
+  text-shadow: none;
+  transition: 0.2s ease-in;
+}
+
+.saveItem {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  text-shadow: 1px 1px 3px black;
+  transition: 0.3s ease-in-out;
+}
+
+.saveItem:hover {
+  transform: scale(1.1);
+  text-shadow: 1px 1px 3px white;
+  box-shadow: 1px 1px 3px black;
+  color: black;
+}
+
+.subs {
+  width: 100% !important;
+}
+
+.btnSubs {
+  font-size: 1rem;
+  font-family: fantasy;
+}
+
+.submitUpdate {
+  font-size: 2rem;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+.submitUpdate:hover {
+  background-color: var(--green);
+}
+
+.addNewSubsIcons {
+  width: 75%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.514);
+  direction: rtl;
+}
+
+.addNewSubsIcons svg {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.addNewSubsIcons svg:nth-child(1) {
+  color: green;
+}
+.addNewSubsIcons svg:nth-child(2) {
+  color: red;
+}
+
+.subs {
+  position: relative;
+}
+
+.check {
+  position: absolute;
+  bottom: 0;
+  right: -10px;
+  direction: rtl;
+}
+
+.check svg {
+  font-size: 1.8rem;
+  color: rgb(28, 173, 100);
+}
+
+.submitItem {
+  background-color: var(--purple);
+  border-color: var(--purple);
+}
+
+.submitItem:hover {
+  background-color: var(--purple);
+  border-color: var(--purple);
+}
+
+.delIcon {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  direction: rtl;
+  z-index: 99;
+}
+
+.delIcon svg {
+  font-size: 1.8rem;
+  color: red;
+  background-color: var(--white);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.delIcon svg:hover {
+  transform: scale(1.1);
+  color: var(--white);
+  background-color: red;
+  box-shadow: -1px -1px 3px white;
+  transition: 0.3s ease-in-out;
+}
+
+.addNewItem {
+  font-size: 2rem;
+  border-radius: 0;
+  width: 60%;
+  margin: 1rem 20%;
+}
+
+.deleteRow {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.603);
+  padding: 1rem;
+}
+
+.deleteRow button {
+  font-size: 1.5rem;
+  width: 100%;
+}

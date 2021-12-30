@@ -1,0 +1,302 @@
+.page {
+  background-color: rgb(0, 128, 64);
+  margin-bottom: 1rem;
+  width: 80%;
+  margin: auto;
+  margin-top: 1rem;
+  padding: 1rem;
+  position: relative;
+}
+
+.page p {
+  text-align: right;
+  direction: rtl;
+}
+
+.section {
+  background-color: rgb(203, 233, 203);
+  margin: 1rem 0;
+  padding: 1rem 0;
+  position: relative;
+  direction: rtl;
+}
+
+.typeSec {
+  background-color: #883676;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.typeSec h2 {
+  color: white;
+}
+
+.section h2,
+.section h3 {
+  text-align: center;
+}
+
+.section img {
+  max-width: 400px;
+}
+
+.content {
+  padding: 8px;
+  width: 80%;
+  margin: auto;
+  border: 2px solid #883676;
+  margin-bottom: 1rem;
+  position: relative;
+  padding-bottom: 60px;
+}
+
+.accordion h1,
+.accordion h2,
+.accordion h3,
+.accordion h4,
+.accordion h5,
+.accordion h6,
+.accordion p,
+.accordion li {
+  background-color: transparent;
+  color: black;
+  text-align: left;
+  padding: 0;
+  margin: 5px 0;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.details img {
+  background-color: white;
+}
+
+.editBtn svg {
+  font-size: 2rem;
+  color: #d0f0c0;
+  cursor: pointer;
+}
+
+.editBtn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #883676;
+  border-top-left-radius: 5px;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.fakeBtn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.closeBtn {
+  position: absolute;
+  z-index: 50;
+  top: 10px;
+  right: 1rem;
+  background-color: red;
+  opacity: 1;
+}
+
+.addColumn {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.addColumn button {
+  width: 2.5rem;
+  height: 3rem;
+  background: transparent;
+  border: none;
+  position: absolute;
+  bottom: 0;
+  z-index: 99;
+}
+
+.accordion {
+  width: 100%;
+}
+
+.tableGet {
+  direction: rtl;
+}
+
+.editTable {
+  direction: rtl;
+  border: 2px solid #883676;
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.worksamples {
+  padding: 8px;
+  width: 80%;
+  margin: auto;
+  border: 2px solid #883676;
+  margin-bottom: 1rem;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.worksampleItems {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.worksampleItems div {
+  background-color: rgba(255, 255, 255, 0.39);
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+.boxWorksamples {
+  flex-basis: 35%;
+}
+
+.prjWorksamples {
+  flex-basis: 65%;
+}
+
+.contactforms {
+  position: relative;
+  width: 80%;
+  margin: 1rem auto;
+  border: 2px solid #883676;
+  padding: 1rem;
+}
+
+.contactformItems h3 {
+  background-color: rgba(0, 100, 0, 0.425);
+  padding: 1rem;
+  width: 80%;
+  margin: 0 auto 1rem;
+}
+
+.simpleTxtImg {
+  width: 100%;
+}
+
+.simpleSec h3,
+.simpleTxtImg h3 {
+  color: black;
+}
+
+.simpleSec ul,
+.simpleSec ol,
+.simpleTxtImg ul,
+.simpleTxtImg ol {
+  list-style-type: none;
+}
+
+.simpleSec ul,
+.simpleTxtImg ul,
+.simpleSec ol,
+.simpleTxtImg ol {
+  padding: 0;
+}
+
+.simpleSec ol li::before,
+.simpleTxtImg ol li::before {
+  content: " ";
+  padding: 0 15px;
+  width: 20px;
+  height: 5px;
+  background-color: var(--purple);
+  color: var(--purple);
+  margin: 5px;
+  font-size: 6px;
+}
+
+.simpleSec ul li::before,
+.simpleSec ul li::after,
+.simpleTxtImg ul li::before,
+.simpleTxtImg ul li::after {
+  content: " ";
+  padding: 0 15px;
+  width: 20px;
+  height: 5px;
+  background-color: var(--purple);
+  color: var(--purple);
+  margin: 5px;
+  font-size: 6px;
+}
+
+.simpleTxtImg img {
+  width: 100%;
+  max-width: 100% !important;
+}
+
+.contactUsBoxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactUsBoxesIcon {
+  margin-bottom: 1rem;
+}
+
+.contactUsBoxesIcon svg {
+  color: rgb(10, 51, 10);
+  font-size: 3rem;
+  background-color: rgba(85, 131, 48, 0.493);
+  padding: 5px;
+}
+
+.contactUsBoxesItems svg {
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: #883676;
+}
+
+.contactLinkUrls {
+  text-align: center;
+  direction: rtl;
+}
+
+.contactLinkUrls p {
+  text-align: center;
+  background-color: rgba(0, 0, 255, 0.308);
+}
+
+.contactLinkIcons svg {
+  font-size: 25px;
+}
+
+.contactLinkIcons p {
+  background-color: #88367660;
+}
+
+.ListAccordionItems {
+  background-color: var(--green);
+}
+
+.ListAccordionItems h3 {
+  font-size: 1.8rem !important;
+  color: black;
+}

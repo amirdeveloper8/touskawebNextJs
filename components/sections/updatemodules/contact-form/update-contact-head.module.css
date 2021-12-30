@@ -1,0 +1,61 @@
+.inputTitle input {
+  width: 100%;
+  margin-right: 2%;
+  direction: rtl;
+}
+
+.inputTitle svg {
+  font-size: 20px;
+  background-color: rgb(0, 73, 18);
+  color: white;
+  position: absolute;
+  width: 30px;
+  height: 70%;
+  padding: 2px;
+  top: 0;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.inputTitle svg:hover {
+  height: 100%;
+  transition: 0.3s ease-in;
+}
+
+.updateTitle {
+  position: relative;
+  width: 60%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.274);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.updateTitle h3 {
+  direction: ltr;
+}
+
+.cancelIcon {
+  background-color: red !important;
+  right: -29px !important;
+}
+
+.submitIcon {
+  left: -29px;
+}
+
+.updateTitle .fromGp {
+  position: relative;
+}
+
+.edit {
+  position: absolute;
+  left: 0.5rem;
+  bottom: 8px;
+  cursor: pointer;
+}
+
+.inputTitle img {
+  max-width: 100%;
+  width: 100%;
+}

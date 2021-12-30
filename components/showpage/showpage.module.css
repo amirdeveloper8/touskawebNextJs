@@ -1,0 +1,12 @@
+.greenSec {
+  background-image: url(/public/images/Green-BG.jpg);
+}
+
+.greenSec h2 {
+  text-align: left !important;
+}
+
+.whiteSec {
+  background-image: url(/public/images/White-BG.jpg);
+  text-align: right !important;
+}

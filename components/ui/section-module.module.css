@@ -1,0 +1,39 @@
+.sections {
+  background-color: #2e8b57;
+  max-width: 600px;
+  height: 600px;
+  position: relative;
+  padding: 2rem;
+  z-index: 99999;
+}
+
+.close {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.row {
+  margin-top: 1rem;
+}
+
+.row div {
+  width: 33% !important;
+}
+
+.row button {
+  width: 100% !important;
+  background-color: #883676;
+  border-color: #5f104e;
+  text-align: center;
+}
+
+.row button:hover {
+  background-color: #5f104e;
+  border-color: #883676;
+}
+
+.row button:active {
+  background-color: #5f104e;
+  text-align: center;
+}
